@@ -1,4 +1,5 @@
 def prime?(n)
+ if
   (2..n/2).none? do |i| 
     n % i == 0
   end
